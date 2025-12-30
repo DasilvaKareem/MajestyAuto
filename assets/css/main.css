@@ -3176,8 +3176,17 @@
 			margin-bottom: 0;
 		}
 
-		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+			text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
+		}
+
+		#banner h1 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9), 0 0 30px rgba(0, 0, 0, 0.7);
 		}
 
 		#banner h2 {
@@ -3190,6 +3199,7 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
+			text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5);
 		}
 
 		#banner input[type="submit"],

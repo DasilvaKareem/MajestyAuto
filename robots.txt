@@ -1,0 +1,11 @@
+# Robots.txt for Majesty Auto Repair
+# https://majestyautorepair.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://majestyautorepair.com/sitemap.xml
+
+# Disallow admin or private directories (if any)
+Disallow: /assets/sass/
